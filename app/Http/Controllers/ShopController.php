@@ -34,7 +34,16 @@ class ShopController extends Controller
      */
     public function store(Request $request)
     {
+
         $tienda = new Shop;
+        $tienda->name = $request->input('name');
+        $tienda->description = $request->input('description');
+        $tienda->password = $request->input('password');
+        $tienda->email = $request->input('email');
+        $tienda->likes = $request->input('likes');
+        $tienda->save();
+
+        return view('home');
 
     }
 

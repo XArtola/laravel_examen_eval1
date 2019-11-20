@@ -5,7 +5,7 @@
 @section('content')
 
   <h3>Nueva tienda</h3>
-  <form action="{{tiendas.store}}" method="POST">
+  <form action="{{route('tiendas.store')}}" method="POST">
     @csrf
     Nombre:<br>
     <input type="text" name="name">

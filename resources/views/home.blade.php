@@ -8,7 +8,7 @@
 
     <h1>Ventajas</h1>
     <ol>
-      <li>Facilita el trabajo ya que muchas estructuras y funciones vienen prediseñadas</li>
+      <li>Facilita el trabajo ya que muchas estructuras y funciones vienen prediseñadas, tambien evita tener que hacer cosas como la conexión a la base de datos de forma manual</li>
       <li>Tareas como la autenticación, validación uso de plantillas se vuilven muchisimo más sencillas</li>
     </ol>
     <h1>Desventajas</h1>

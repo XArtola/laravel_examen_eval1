@@ -19,6 +19,7 @@ class ProductsTableSeeder extends Seeder
                 'description'=>'aaa',
                 'stock'=>5,
                 'price'=> 10.30,
+                'shop_id'=>1,
 
             ],
             [
@@ -27,6 +28,7 @@ class ProductsTableSeeder extends Seeder
                 'description'=>'aaa',
                 'stock'=>5,
                 'price'=> 10.30,
+                'shop_id'=>1,
 
             ],
             [
@@ -35,6 +37,7 @@ class ProductsTableSeeder extends Seeder
                 'description'=>'aaa',
                 'stock'=>5,
                 'price'=> 10.30,
+                'shop_id'=>2,
 
             ],
             [
@@ -43,6 +46,7 @@ class ProductsTableSeeder extends Seeder
                 'description'=>'aaa',
                 'stock'=>5,
                 'price'=> 10.30,
+                'shop_id'=>2
 
             ],
             [
@@ -51,6 +55,7 @@ class ProductsTableSeeder extends Seeder
                 'description'=>'aaa',
                 'stock'=>5,
                 'price'=> 10.30,
+                'shop_id'=>2,
 
             ],
             [
@@ -59,6 +64,7 @@ class ProductsTableSeeder extends Seeder
                 'description'=>'aaa',
                 'stock'=>5,
                 'price'=> 10.30,
+                'shop_id'=>2,
 
             ],
             [
@@ -67,6 +73,7 @@ class ProductsTableSeeder extends Seeder
                 'description'=>'aaa',
                 'stock'=>5,
                 'price'=> 10.30,
+                'shop_id'=>2,
 
             ],
             [
@@ -75,6 +82,7 @@ class ProductsTableSeeder extends Seeder
                 'description'=>'aaa',
                 'stock'=>5,
                 'price'=> 10.30,
+                'shop_id'=>3,
 
             ],
             [
@@ -83,6 +91,8 @@ class ProductsTableSeeder extends Seeder
                 'description'=>'aaa',
                 'stock'=>5,
                 'price'=> 10.30,
+                'shop_id'=>3,
+
 
             ],
             [
@@ -91,6 +101,7 @@ class ProductsTableSeeder extends Seeder
                 'description'=>'aaa',
                 'stock'=>5,
                 'price'=> 10.30,
+                'shop_id'=>3,
 
             ]
 

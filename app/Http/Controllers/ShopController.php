@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Shop;
+use App\Http\Requests\ShopRequest;
 class ShopController extends Controller
 {
     /**
@@ -32,7 +33,7 @@ class ShopController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ShopRequest $request)
     {
 
         $tienda = new Shop;
@@ -43,7 +44,7 @@ class ShopController extends Controller
         $tienda->likes = $request->input('likes');
         $tienda->save();
 
-        return view('home');
+        return view('tiendas.show',['tienda'=>$tienda]);
 
     }
 

@@ -26,8 +26,8 @@ class ShopRequest extends FormRequest
         return [
             'name'=>'required|min:2|max:20',
             'email'=>'required|email',
-            'password'=>'required|min:8|max:10',
-            'likes'=>'required||max:20',
+            'password'=>'required|min:8|max:10|regex:/[0-9]/',
+            'likes'=>'required||max:20|regex:/^[0-9]+$/',
         ];
     }
 }
